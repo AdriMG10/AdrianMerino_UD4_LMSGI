@@ -1,0 +1,1 @@
+- Los elementos de mejora añadidos son las figuras oficiales del juego Rainbow Six Siege
