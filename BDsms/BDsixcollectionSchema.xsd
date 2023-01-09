@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="0.1" xml:lang="es">
+    <xs:element name="BDsixcollection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="sixcollection" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:integer"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="codigojuego" type="xs:integer"/>
+                            <xs:element name="serie" type="xs:integer"/>
+                            <xs:element name="pvp" type="xs:decimal"/>
+                            <xs:element name="aniolanzamineto" type="xs:integer"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>    
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

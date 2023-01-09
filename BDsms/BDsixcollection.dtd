@@ -1,0 +1,8 @@
+<!ELEMENT BDsixcollection (sixcollection*)>
+<!ELEMENT sixcollection (id, nombre, codigojuego, serie, pvp, aniolanzamiento)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT codigojuego (#PCDATA)>
+<!ELEMENT serie (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ELEMENT aniolanzamiento (#PCDATA)>
