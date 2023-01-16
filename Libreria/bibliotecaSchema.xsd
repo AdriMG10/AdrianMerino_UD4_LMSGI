@@ -7,7 +7,7 @@
                 <xs:element name="Libros" maxOccurs="unbounded">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="Libro">
+                            <xs:element name="Libro" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="CodigoLibro" type="xs:string"/>
@@ -27,9 +27,10 @@
                                             </xs:complexType>
                                         </xs:element>
                                         <xs:element name="Titulo" type="xs:string"/>
+                                        <xs:element name="Editorial" type="xs:string"/>
                                         <xs:element name="Edicion" type="xs:integer"/>
                                         <xs:element name="Numeropgs" type="xs:integer"/>
-                                        <xs:element name="ISBN" type="xs:integer"/>
+                                        <xs:element name="ISBN" type="xs:string"/>
                                         <xs:element name="FechaPublicacion">
                                             <xs:complexType>
                                                 <xs:sequence>
