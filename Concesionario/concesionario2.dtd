@@ -1,0 +1,14 @@
+<!ELEMENT concesionario (coches*)>
+<!ELEMENT coches (coche*)>
+<!ELEMENT coche (codigoCoche, marca, modelo, matricula, potencia, plazas, numPuertas, consumos)>
+<!ELEMENT codigoCoche (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT matricula (#PCDATA)>
+<!ELEMENT potencia (#PCDATA)>
+<!ELEMENT plazas (#PCDATA)>
+<!ELEMENT numPuertas (#PCDATA)>
+<!ELEMENT consumos (consumoCiudad, consumoCarretera, consumoMedio)>
+<!ELEMENT consumoCiudad (#PCDATA)>
+<!ELEMENT consumoCarretera (#PCDATA)>
+<!ELEMENT consumoMedio (#PCDATA)>
