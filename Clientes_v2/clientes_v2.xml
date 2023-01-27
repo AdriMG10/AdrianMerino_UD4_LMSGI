@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "clientes_v2.dtd">
+<clientes>
+    <sede codigo="A0000001">
+        <direccion>Calle Muñoz Vázquez, 17</direccion>
+        <nombreEmpleado>Lucas Soto Téllez</nombreEmpleado>
+        <fechaAlta>2007-10-05</fechaAlta>
+        <cliente codigo="AAA-001">
+            <descripcion>solvente</descripcion>
+            <numViviendas>2</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>97500</costeVivienda>
+                <resumenVivienda>Unifamiliares construcción el cementerio</resumenVivienda>
+                <plazoHacienda>4</plazoHacienda>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>97500</costeVivienda>
+                <resumenVivienda>Unifamiliares construcción el cementerio</resumenVivienda>
+                <plazoHacienda>4</plazoHacienda>
+            </vivienda>
+        </cliente>
+        <cliente codigo="AAA-002">
+            <descripcion>solvente</descripcion>
+            <numViviendas>1</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>55000</costeVivienda>
+                <resumenVivienda>Piso nueva construcción</resumenVivienda>
+                <plazoHacienda>12</plazoHacienda>
+            </vivienda>
+        </cliente>
+        <cliente codigo="AAA-003">
+            <descripcion>insolvente</descripcion>
+            <numViviendas>3</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>61666</costeVivienda>
+                <resumenVivienda>Parcelas el Portichuelo</resumenVivienda>
+                <plazoHacienda>8</plazoHacienda>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>61666</costeVivienda>
+                <resumenVivienda>Parcelas el Portichuelo</resumenVivienda>
+                <plazoHacienda>8</plazoHacienda>
+            </vivienda>
+            <vivienda ID="003">
+                <costeVivienda>61666</costeVivienda>
+                <resumenVivienda>Parcelas el Portichuelo</resumenVivienda>
+                <plazoHacienda>8</plazoHacienda>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="A0000002">
+        <direccion>Calle Corredera, 50</direccion>
+        <nombreEmpleado>Joaquín Salas Palacios</nombreEmpleado>
+        <fechaAlta>2011-02-09</fechaAlta>
+        <cliente codigo="BAA-001">
+            <descripcion>solvente</descripcion>
+            <numViviendas>5</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>109000</costeVivienda>
+                <resumenVivienda>Apartamentos paseo marítimo</resumenVivienda>
+                <plazoHacienda>5</plazoHacienda>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>109000</costeVivienda>
+                <resumenVivienda>Apartamentos paseo marítimo</resumenVivienda>
+                <plazoHacienda>5</plazoHacienda>
+            </vivienda>
+            <vivienda ID="003">
+                <costeVivienda>109000</costeVivienda>
+                <resumenVivienda>Apartamentos paseo marítimo</resumenVivienda>
+                <plazoHacienda>5</plazoHacienda>
+            </vivienda>
+            <vivienda ID="004">
+                <costeVivienda>109000</costeVivienda>
+                <resumenVivienda>Apartamentos paseo marítimo</resumenVivienda>
+                <plazoHacienda>5</plazoHacienda>
+            </vivienda>
+            <vivienda ID="005">
+                <costeVivienda>109000</costeVivienda>
+                <resumenVivienda>Apartamentos paseo marítimo</resumenVivienda>
+                <plazoHacienda>5</plazoHacienda>
+            </vivienda>
+        </cliente>
+        <cliente codigo="BAA-002">
+            <descripcion>insolvente</descripcion>
+            <numViviendas>2</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>110000</costeVivienda>
+                <resumenVivienda>Adosados del Mesón</resumenVivienda>
+                <plazoHacienda>2</plazoHacienda>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>110000</costeVivienda>
+                <resumenVivienda>Adosados del Mesón</resumenVivienda>
+                <plazoHacienda>2</plazoHacienda>
+            </vivienda>
+        </cliente>
+        <cliente codigo="BAA-003">
+            <descripcion>solvente</descripcion>
+            <numViviendas>6</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+            <vivienda ID="003">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+            <vivienda ID="004">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+            <vivienda ID="005">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+            <vivienda ID="006">
+                <costeVivienda>80833</costeVivienda>
+                <resumenVivienda>Edificio de pisos del Paseo</resumenVivienda>
+                <plazoHacienda>10</plazoHacienda>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>
