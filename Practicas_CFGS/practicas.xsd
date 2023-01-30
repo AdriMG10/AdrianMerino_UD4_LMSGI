@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="practicas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="alumno" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nif" type="nifTipo"/>
+                            <xs:element name="resultado" type="resultadoTipo"/>
+                            <xs:element name="observaciones" type="observacionesTipo" minOccurs="0"/>
+                            <xs:choice>
+                                <xs:element name="ip" type="xs:string"/>
+                                <xs:element name="mac" type="xs:string"/>
+                            </xs:choice>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="nifTipo">
+        <xs:restriction base="xs:string">
+        <xs:pattern value="\d{8}[a-zA-Z]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="resultadoTipo">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Apto"/>
+            <xs:enumeration value="No Apto"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="observacionesTipo" mixed="true">
+        <xs:sequence>
+            <xs:element name="anhos" type="xs:integer"/>
+            <xs:element name="poblacion" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,8 @@
+<!ELEMENT modulos (modulo*)>
+<!ELEMENT modulo (nombre, contenidos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT contenidos (ud+)>
+<!ELEMENT ud (tipo, descripcion)>
+<!ATTLIST ud num CDATA #REQUIRED>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>

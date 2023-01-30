@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+    <modulo>
+        <nombre>Programación</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Introducción a la Programación</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Introducción a la Programación Orientada a Objetos y Java</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Utilización de Objetos</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="04">
+                <tipo>Estructura de Datos</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+	<modulo>
+		<nombre>Bases de Datos</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Almacenamiento de la Información</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Bases de Datos Relacionales</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Modelo Entidad Relación</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="04">
+                <tipo>Transformación Modelo E/R al Modelo Relacional</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="05">
+                <tipo>Lenguaje SQL - DDL</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="06">
+                <tipo>Lenguaje SQL - DML</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+    <modulo>
+		<nombre>Sistemas informáticos</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Hardware</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Introducción Linux</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Máquinas Virtuales</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+    <modulo>
+		<nombre>Lenguajes de marcas y sistemas de gestión de información</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Introducción a los Lenguajes de Marcas</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Lenguajes para la Visualización de Información</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Lenguajes para el Almacenamiento y Transmisión de Información</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="04">
+                <tipo>Definición de Esquemas y Vocabularios en XML.</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+    <modulo>
+		<nombre>Entornos de desarrollo</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Desarrollo de Software</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Instalación y Uso de Entornos de Desarrollo</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Optimizacion y Documentación</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="04">
+                <tipo>Depuración y Realización de Pruebas</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+    <modulo>
+		<nombre>Formación y orientación laboral</nombre>
+		<contenidos>
+            <ud num="01">
+                <tipo>Mi Ficlo Formativo</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="02">
+                <tipo>Mi Futuro Profesional</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="03">
+                <tipo>Mi Primer Trabajo: Ideas Preliminares</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="04">
+                <tipo>Mi Primer Contrato de Trabajo.</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="05">
+                <tipo>Nóminas</tipo>
+                <descripcion></descripcion>
+            </ud>
+            <ud num="06">
+                <tipo>Cambios en las Relaciones Contractuales</tipo>
+                <descripcion></descripcion>
+            </ud>
+        </contenidos>
+	</modulo>
+</modulos>
