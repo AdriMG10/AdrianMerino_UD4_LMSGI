@@ -1,0 +1,15 @@
+<!ELEMENT informe (cabecera, datos)>
+<!ELEMENT cabecera (titulo, subtitulo, descripcion, fecha)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT subtitulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datos (plataforma+, trimestre, juegosVendidos)>
+<!ELEMENT plataforma (playstation, xbox, nintendo)>
+<!ELEMENT playstation (#PCDATA | trimestreD | juegosVendidosD)*>
+<!ELEMENT xbox (#PCDATA | trimestreD | juegosVendidosD)*>
+<!ELEMENT nintendo (#PCDATA | trimestreD | juegosVendidosD)*>
+<!ELEMENT trimestreD (#PCDATA)>
+<!ELEMENT juegosVendidosD (#PCDATA)>
+<!ELEMENT trimestre (#PCDATA)>
+<!ELEMENT juegosVendidos (#PCDATA)>

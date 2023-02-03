@@ -6,3 +6,4 @@ ELEMENTOS MEJORA
 - Clientes --> creación de clientes_v2 con la modificación solicitada y cambio del elemento clienteDatos por clienteNDatos. Existencia de XML con DTD en el propio documento y XML con XSD definido tanto para clientes como clientes_v2.
 - Practicas_CFGS --> creación de DTD, XML, XSD, XML con DTD y XML con XSD. Se han añadido 11 entradas reales de alumnos.
 - Modulos_CFGS --> creación de DTD, XML, XSD, XML con DTD y XML con XSD. Se han añadido todos los módulos y unidades reales que se han cursado hasta ahora en el grado superior. Uso de código para ud con restricción de dos digitos.
+- Editorial --> creación de DTD y XML según instrucciones. Se ha añadido ejemplo real de un informe de ventas de juegos en un GAME.
