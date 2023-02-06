@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<informe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="game.xsd">
+        <cabecera>
+            <titulo>GAME</titulo>
+            <subtitulo>Informe ventas juegos anuales C.C. Area Sur</subtitulo>
+            <descripcion>Descripción: informe de ventas de juegos en GAME C.C. Area Sur 2022</descripcion>
+            <fecha>Fecha del informe: 31/01/2023</fecha>
+        </cabecera>
+        <datos>
+            <plataforma>
+                <playstation>PlayStation
+                    <trimestreD>1</trimestreD>
+                    <juegosVendidosD>3543</juegosVendidosD>
+                    <trimestreD>2</trimestreD>
+                    <juegosVendidosD>2498</juegosVendidosD>
+                    <trimestreD>3</trimestreD>
+                    <juegosVendidosD>3145</juegosVendidosD>
+                    <trimestreD>4</trimestreD>
+                    <juegosVendidosD>5432</juegosVendidosD>
+                </playstation> 
+                <xbox>Xbox
+                    <trimestreD>1</trimestreD>
+                    <juegosVendidosD>713</juegosVendidosD>
+                    <trimestreD>2</trimestreD>
+                    <juegosVendidosD>543</juegosVendidosD>
+                    <trimestreD>3</trimestreD>
+                    <juegosVendidosD>674</juegosVendidosD>
+                    <trimestreD>4</trimestreD>
+                    <juegosVendidosD>872</juegosVendidosD>
+                </xbox>
+                <nintendo>Nintendo
+                    <trimestreD>1</trimestreD>
+                    <juegosVendidosD>4321</juegosVendidosD>
+                    <trimestreD>2</trimestreD>
+                    <juegosVendidosD>3457</juegosVendidosD>
+                    <trimestreD>3</trimestreD>
+                    <juegosVendidosD>5342</juegosVendidosD>
+                    <trimestreD>4</trimestreD>
+                    <juegosVendidosD>6789</juegosVendidosD>
+                </nintendo>
+            </plataforma>
+            <trimestre>Trimestre</trimestre>
+            <juegosVendidos>Juegos Vendidos</juegosVendidos>
+        </datos>
+</informe>
